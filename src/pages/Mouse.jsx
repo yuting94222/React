@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import myImgM1 from '../assets/M1.jpg';
-import myImgM2 from '../assets/M2.jpg';
+import myImgm1 from '../assets/m1.jpg';
+import myImgm2 from '../assets/m2.jpg';
 
 function Mouse() {
     const [showModal, setShowModal] = useState(false);
@@ -13,11 +13,11 @@ function Mouse() {
             <h2>兩隻笨鼠</h2>
 
             <div className='mouseimg'>
-                <img src={myImgM1} style={{ width: '60%' }} className='m-photo' />
+                <img src={myImgm1} style={{ width: '60%' }} className='m-photo' />
                 <br />
-                <img src={myImgM2} style={{ width: '60%' }} className='m-photo' />
+                <img src={myImgm2} style={{ width: '60%' }} className='m-photo' />
             </div>
-            <div style={{ textAlign: 'center'}}>
+            <div style={{ textAlign: 'center' }}>
                 <div className="buttons">
                     <button
                         onClick={() => {

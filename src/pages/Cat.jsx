@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import myImgC1 from '../assets/C1.jpg';
+import myImgc1 from '../assets/c1.jpg';
 import catImg from '../assets/catImg.jpg';
 
 function Cat() {
@@ -14,7 +14,7 @@ function Cat() {
                     {uglyimg ? '額外加碼醜臉貓' : '額外加碼醜臉貓'}
                 </button>
             </p>
-            <img src={myImgC1} style={{ width: '90%', borderRadius: '15px' }} alt="main-cat" />
+            <img src={myImgc1} style={{ width: '90%', borderRadius: '15px' }} alt="main-cat" />
             <br />
 
             {uglyimg && (
